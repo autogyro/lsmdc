@@ -2,7 +2,6 @@
 
 This project hosts the tensorflow implementation for our **ECCV 2018** paper, **A Joint Sequence Fusion Model for Video Question Answering and Retrieval}**.
 
-This repository will fully updated before Sep 30th. (Dataset, Code refactoring, Pretrained model and feature etc)
 
 ## Reference
 
@@ -55,7 +54,9 @@ add2virtualenv .
   - [Download vocabulary files](https://drive.google.com/drive/folders/1GsArc0BuxzMAYobzbhWMj7MEUPDuneeC?usp=sharing)
   - Save these files in "dataset/LSMDC/Vocabulary"
 
+- Preprocessed feature
 
+  - Upload was delayed due to server backup problem. sorry for late.   
 
 ### Training
 
