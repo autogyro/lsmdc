@@ -43,10 +43,12 @@ add2virtualenv .
 
   3. Extract audio features using [VGGish](https://github.com/tensorflow/models/tree/master/research/audioset).
 
-  4. Concat rgb and video features and save it into hdf5 file, and save it in 'dataset/LSMDC/LSMDC16_features/RESNET_pool5wav.hdf5'. 
+  4. Concat rgb and video features and save it into hdf5 file, and save it in 'dataset/LSMDC/LSMDC16_features/RESNET_pool5wav.hdf5'.
 
 - Dataset
-  - Coming soon!
+  - We processed raw data frames file in LSMDC17 and MSR-VTT dataset
+  - [Download dataframe files](https://drive.google.com/drive/folders/1_Wyr2VEWU4N-OgLBaQDGWXqD2TXXUBaF?usp=sharing)
+  - Save these files in "dataset/LSMDC/DataFrame"
 
 - Vocabulary
 
@@ -54,9 +56,6 @@ add2virtualenv .
   - [Download vocabulary files](https://drive.google.com/drive/folders/1GsArc0BuxzMAYobzbhWMj7MEUPDuneeC?usp=sharing)
   - Save these files in "dataset/LSMDC/Vocabulary"
 
-- Preprocessed feature
-
-  - Upload was delayed due to server backup problem. sorry for late.   
 
 ### Training
 
